@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.puntuacion{
+    align-items: center;
+    border-style: dashed;
+    border-radius: 15px;
+    width: 250px;
+    padding: 25px;
+}
+
+
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    background-color: #F0EEED;
+}
+
+.botones button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input{
+    border-style: solid;
+    margin: 2px;
+}

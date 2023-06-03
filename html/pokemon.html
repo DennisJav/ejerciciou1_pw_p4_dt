@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="../js/pokemon.js"></script>
+    <link rel="stylesheet" href="../css/pokemon.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="aplicacion">
+
+            <header>
+                <h2>Juego Pokemon</h2>
+            </header>
+            <nav></nav>
+            <section>
+                <div class="puntuacion">
+                    <label for="idPuntaje">Puntaje:  </label>
+                    <input type="text" id="idPuntaje" value="0" disabled="true">
+                    <label for="idInteno">Intentos:</label>
+                    <input type="text" id="idInteno" value="0" disabled="true">
+                    <h5>Selecciona el nombre del pokemon correcto</h5>
+                </div>
+                <div class="imagen">
+                    <img id="idImagenes" src="../img/pnegro.jpg" alt="Imagen no encontrada" >
+               
+                </div>
+
+                <div class="botones">
+                    
+                    <label for="" id="idLabelRes">respuesta: </label>
+                    <input type="text" value=" " id="idRespuesta">    
+                   
+                    <button  value="Keldeo - ordinary" onclick="incorrecta()">keldeo - ordinary</button>
+                    <button  value="drilbur" onclick="incorrecta()">drilbur</button>
+                    <button  value="ninjask" onclick="incorrecta()">ninjask </button>
+                    <button value="excadrill" onclick="correcta()">excadrill</button>
+                    <button value="Reinicia" onclick="reiniciar()" >Reiniciar</button>
+                    
+                    
+                </div>
+
+            </section>
+            <footer></footer>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
